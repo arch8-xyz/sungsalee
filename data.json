@@ -1,0 +1,21 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      { "type": "Feature", "geometry": { "type": "Point", "coordinates": [88.50385, 27.445] }, "properties": { "sectionId": "section1", "title": "Sungsa Lee", "description": "Sungsa Lee" } },
+      { "type": "Feature", "geometry": { "type": "Point", "coordinates": [88.50262, 27.44506] }, "properties": { "sectionId": "section1", "title": "Mapbox", "description": "Chhoten" } },
+      { "type": "Feature", "geometry": { "type": "Point", "coordinates": [88.50585, 27.4519] }, "properties": { "sectionId": "section1", "title": "Mapbox", "description": "Longchuk" } },
+      { "type": "Feature", "geometry": { "type": "Point", "coordinates": [88.50152, 27.45488] }, "properties": { "sectionId": "section1", "title": "Mapbox", "description": "Ronglee" } },
+      { "type": "Feature", "geometry": { "type": "Point", "coordinates": [88.50217, 27.44545] }, "properties": { "sectionId": "section2", "title": "Mapbox", "description": "Naku Tsering" } },
+      { "type": "Feature", "geometry": { "type": "Point", "coordinates": [88.50546, 27.44621] }, "properties": { "sectionId": "section2", "title": "Mapbox", "description": "Kinga Lepcha" } },
+      { "type": "Feature", "geometry": { "type": "Point", "coordinates": [88.50389, 27.44642] }, "properties": { "sectionId": "section2", "title": "Mapbox", "description": "Norkit & Dukboo Lepcha" } },
+      { "type": "Feature", "geometry": { "type": "Point", "coordinates": [88.50144, 27.4556] }, "properties": { "sectionId": "section2", "title": "Mapbox", "description": "Anum Chewang" } },
+      { "type": "Feature", "geometry": { "type": "Point", "coordinates": [88.50587, 27.4535] }, "properties": { "sectionId": "section2", "title": "Mapbox", "description": "Bumthing" } },
+      { "type": "Feature", "geometry": { "type": "Point", "coordinates": [88.50457, 27.44535] }, "properties": { "sectionId": "section2", "title": "Mapbox", "description": "Passangkit Lepcha" } },
+      { "type": "Feature", "geometry": { "type": "Point", "coordinates": [88.50502, 27.44592] }, "properties": { "sectionId": "section2", "title": "Mapbox", "description": "Chuzang Lepcha" } },
+      { "type": "Feature", "geometry": { "type": "Point", "coordinates": [88.50638, 27.4464] }, "properties": { "sectionId": "section2", "title": "Mapbox", "description": "Sonam Dorjee Lepcha" } },
+      { "type": "Feature", "geometry": { "type": "Point", "coordinates": [88.50556, 27.44569] }, "properties": { "sectionId": "section3", "title": "Mapbox", "description": "Gnon Primary School" } },
+      { "type": "Feature", "geometry": { "type": "Point", "coordinates": [88.50524, 27.45411] }, "properties": { "sectionId": "section3", "title": "Mapbox", "description": "Sangdong School" } },
+      { "type": "Feature", "geometry": { "type": "Point", "coordinates": [88.50391, 27.4519] }, "properties": { "sectionId": "section3", "title": "Mapbox", "description": "Gompa" } }
+    ]
+  }
+  

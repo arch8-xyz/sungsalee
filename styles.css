@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: scroll;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  #map {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .marker-living-stories, .marker-people, .marker-sites {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  
+  .marker-living-stories {
+    background-color: green;
+  }
+  
+  .marker-people {
+    background-color: beige;
+  }
+  
+  .marker-sites {
+    background-color: blue;
+  }
+  
+  .active-marker {
+    border: 3px solid red;
+    z-index: 100;
+  }
+
+    .popup {
+      max-width: 400px;
+      font:
+          12px/20px 'Helvetica Neue',
+          Arial,
+          Helvetica,
+          sans-serif;
+  }
+  
+  #section1 {
+    width: 50%;
+    height: 100vh;
+    background-color: green;
+  }
+  
+  #section2 {
+    width: 50%;
+    height: 100vh;
+    background-color: beige;
+  }
+  
+  #section3 {
+    width: 50%;
+    height: 100vh;
+    background-color: blue;
+  }
+  
