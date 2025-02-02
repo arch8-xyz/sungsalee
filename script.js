@@ -25,20 +25,30 @@ const geojson = {
     { type: 'Feature', geometry: { type: 'Point', coordinates: [88.50556, 27.44569] }, properties: { sectionId: "section3", title: "Mapbox", "description": "Gnon Primary School" } },
     { type: 'Feature', geometry: { type: 'Point', coordinates: [88.50524, 27.45411] }, properties: { sectionId: "section3", title: "Mapbox", "description": "Sangdong School" } },
     { type: 'Feature', geometry: { type: 'Point', coordinates: [88.50391, 27.4519] }, properties: { sectionId: "section3", title: "Mapbox", "description": "Gompa" } }
-    // Add more features...
+    
   ]
 };
 
 let markers = [];
 let connectionLayers = [];
 
-// Predefined connections
+
 const connections = [
   [0, 1],
   [0, 6],
   [1, 2],
   [6, 2],
-  // Add more connections...
+  [9, 5],
+  [5, 8],
+  [8, 12],
+  [10, 15],
+  [10, 14],
+  [10, 4],
+  [11, 4],
+  [12, 2],
+  [13, 5],
+  [14, 7],
+  [14, 15]
 ];
 
 // Add markers with popups
@@ -139,7 +149,7 @@ const showConnections = (markerIndex) => {
     return curve;
   };
 
-// Add markers for each section
+
 addMarkers(
   geojson.features.filter(feature => feature.properties.sectionId === 'section1'),
   'marker-living-stories'
